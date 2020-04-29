@@ -1,0 +1,387 @@
+* {
+  padding-top: 0px;
+  box-sizing: border-box; }
+
+.colorzilla {
+  position: fixed !important;
+  width: 100%;
+  background-color: white;
+  transition: .5s; }
+  .colorzilla .menu i {
+    color: black !important; }
+  .colorzilla .menu ul li {
+    list-style: none;
+    text-decoration: none; }
+    .colorzilla .menu ul li a {
+      color: black !important;
+      font-weight: 600; }
+  .colorzilla .logo {
+    margin: -10px 30px; }
+    .colorzilla .logo h2 {
+      color: black !important; }
+  .colorzilla .callus {
+    margin-top: -10px;
+    margin-left: 80px;
+    border: 1px solid whitesmoke !important;
+    border-radius: 40px;
+    padding: 0px 0px 0px 10px; }
+    .colorzilla .callus a {
+      color: black !important;
+      font-weight: 600; }
+    .colorzilla .callus i {
+      font-weight: 600;
+      color: white !important;
+      background-color: #2775ff;
+      border: 1px solid whitesmoke !important;
+      border-radius: 40px;
+      padding: 15px; }
+  .colorzilla .languageus {
+    margin-top: -10px;
+    position: relative;
+    margin-left: 5px;
+    border: 1px solid whitesmoke !important;
+    border-radius: 40px;
+    padding: 6px 10px 0px 10px; }
+    .colorzilla .languageus a {
+      color: black !important; }
+    .colorzilla .languageus i {
+      padding: 10px 0px; }
+  .colorzilla .languageothers {
+    margin-top: -10px;
+    transition-duration: 4s;
+    display: none;
+    transform: translateY(5px);
+    transform: translateX(116px);
+    position: absolute;
+    margin-left: 5px;
+    border-radius: 40px;
+    padding: 6px 10px 10px 1px;
+    background-color: white; }
+    .colorzilla .languageothers a {
+      padding: 5px;
+      color: grey; }
+    .colorzilla .languageothers i {
+      color: grey;
+      padding: 10px 0px; }
+  .colorzilla .basketsharesearchmoreinfo .basket i {
+    padding: 0px 30px 0px 0px;
+    color: black !important;
+    font-weight: 600; }
+  .colorzilla .basketsharesearchmoreinfo .share i {
+    color: black !important;
+    font-weight: 600;
+    padding: 0px 30px 0px 0px; }
+  .colorzilla .basketsharesearchmoreinfo .search i {
+    color: black !important;
+    font-weight: 600;
+    padding: 0px 25px 0px 0px; }
+  .colorzilla .basketsharesearchmoreinfo .moreinfo i {
+    color: black !important;
+    font-weight: 600;
+    padding: 0px 20px 0px 0px; }
+
+.header {
+  position: absolute;
+  padding: 20px 0px 10px 0px;
+  z-index: 9999;
+  border-bottom: .16px solid whitesmoke; }
+  .header .menu .home-drop .home-dropped li:hover {
+    box-shadow: rgba(52, 152, 219, 0.5);
+    border: 1px solid black;
+    overflow: visible; }
+  .header .menu ul li {
+    list-style: none;
+    text-decoration: none; }
+    .header .menu ul li a {
+      color: white;
+      font-weight: 600; }
+  .header .logo {
+    margin: -10px 30px; }
+  .header .callus {
+    margin-top: -10px;
+    margin-left: 80px;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 0px 0px 0px 10px; }
+    .header .callus a {
+      color: white;
+      font-weight: 600; }
+    .header .callus i {
+      font-weight: 600;
+      color: white;
+      border: 1px solid white;
+      border-radius: 40px;
+      padding: 15px; }
+  .header .languageus {
+    margin-top: -10px;
+    position: relative;
+    margin-left: 5px;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 6px 10px 0px 10px; }
+    .header .languageus i {
+      padding: 10px 0px; }
+  .header .languageothers {
+    margin-top: -10px;
+    transition-duration: 4s;
+    display: none;
+    transform: translateY(5px);
+    transform: translateX(116px);
+    position: absolute;
+    margin-left: 5px;
+    border-radius: 40px;
+    padding: 6px 10px 10px 1px;
+    background-color: white; }
+    .header .languageothers a {
+      padding: 5px;
+      color: grey; }
+    .header .languageothers i {
+      color: grey;
+      padding: 10px 0px; }
+  .header .basketsharesearchmoreinfo .basket i {
+    padding: 0px 30px 0px 0px;
+    color: white;
+    font-weight: 600; }
+  .header .basketsharesearchmoreinfo .share i {
+    color: white;
+    font-weight: 600;
+    padding: 0px 30px 0px 0px; }
+  .header .basketsharesearchmoreinfo .search i {
+    color: white;
+    font-weight: 600;
+    padding: 0px 25px 0px 0px; }
+  .header .basketsharesearchmoreinfo .moreinfo i {
+    color: white;
+    font-weight: 600;
+    padding: 0px 20px 0px 0px; }
+
+.home {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background: linear-gradient(#8e44ad, rgba(52, 152, 219, 0.5)), url(http://wp.berserk.nikadevs.com/wp-content/themes/berserk/assets/images/bg-pattern.jpg);
+  clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 95% 93%, 50% 94%, 13% 100%, 0 100%, 0% 35%, 0 0); }
+  .home .ecophotos {
+    position: relative;
+    padding: 100px 0px;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-top: 170px;
+    background-color: white; }
+    .home .ecophotos .slick-prev::before {
+      content: "<";
+      color: red; }
+    .home .ecophotos .slick-next::before {
+      position: absolute;
+      right: 25px;
+      content: ">";
+      color: red; }
+  .home .home-text {
+    position: absolute;
+    top: 180px;
+    left: 130px; }
+    .home .home-text h1 {
+      font-weight: 300;
+      font-family: 'Montserrat',sans-serif;
+      line-height: 3.25rem;
+      color: white;
+      font-size: 2.875rem; }
+    .home .home-text ul li {
+      color: white;
+      list-style: none; }
+    .home .home-text .dropped {
+      display: block; }
+      .home .home-text .dropped.active {
+        display: none; }
+      .home .home-text .dropped li {
+        width: 100%;
+        background-color: white;
+        color: black; }
+    .home .home-text .size-dropped {
+      display: block; }
+      .home .home-text .size-dropped.active {
+        display: none; }
+      .home .home-text .size-dropped li {
+        width: 100%;
+        background-color: white;
+        color: black; }
+
+.tshirt .polo-shirt.polo-after {
+  animation: poloani 1s;
+  transition: 2s; }
+.tshirt .hugo-shirt.hugo-after {
+  animation: hugoani 1s;
+  transition: 2s; }
+
+@keyframes poloani {
+  from {
+    transform: translateX(-30px);
+    opacity: 0; }
+  to {
+    transform: translateX(0px);
+    opacity: 1; } }
+@keyframes hugoani {
+  from {
+    transform: translateX(30px);
+    opacity: 0; }
+  to {
+    transform: translateX(0px);
+    opacity: 1; } }
+.businesstshirt .bigcircle {
+  animation: bigcircleani 2s infinite; }
+
+@keyframes bigcircleani {
+  from {
+    transform: translateY(1000px); }
+  to {
+    transform: translateY(1100px); } }
+.bigcircletwo {
+  animation: bigcircletwoani 2s infinite; }
+
+@keyframes bigcircletwoani {
+  from {
+    transform: translateY(639px); }
+  to {
+    transform: translateY(689px); } }
+.read-active {
+  display: block !important; }
+
+.buy-active {
+  display: none !important; }
+
+.read .pone {
+  color: #b6b6b6; }
+.read .ptwo {
+  color: #b6b6b6; }
+.read .pthree {
+  color: #b6b6b6; }
+.read .pfour {
+  color: #b6b6b6; }
+.read .pfive {
+  color: #b6b6b6; }
+
+.hot .read {
+  display: inline-block;
+  text-align: center;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  border: 1px solid #0fbcf9;
+  border-radius: 40px;
+  padding: 15px 25px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none; }
+  .hot .read:hover {
+    background: aqua; }
+    .hot .read:hover .before {
+      transform: translateY(-105%); }
+    .hot .read:hover .after {
+      transform: translateY(105%); }
+    .hot .read:hover .text {
+      transform: scale(1); }
+  .hot .read .after,
+  .hot .read .before {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    left: 0;
+    overflow: hidden;
+    color: #fff;
+    transition: \transform .3s;
+    font-weight: 700;
+    color: #3c40c6;
+    background-color: white; }
+  .hot .read .text {
+    display: inline-block;
+    transform: scale(0.1);
+    color: #fff;
+    transition: \transform .3s, opacity .3s; }
+  .hot .read .after {
+    bottom: 0px;
+    line-height: 0px; }
+  .hot .read .before {
+    padding-top: 14px;
+    top: 1px; }
+
+.related-active span {
+  background-color: #0fbcf9 !important;
+  padding: 10px 20px !important;
+  border: 1px solid #0fbcf9 !important;
+  border-radius: 40px !important; }
+  .related-active span i {
+    color: white !important; }
+  .related-active span span {
+    color: white !important; }
+
+.related-choices {
+  background: linear-gradient(#8e44ad, rgba(52, 152, 219, 0.5)), url(http://wp.berserk.nikadevs.com/wp-content/themes/berserk/assets/images/bg-pattern.jpg); }
+  .related-choices .tshirt-text1 {
+    transition: 2s; }
+    .related-choices .tshirt-text1 :hover {
+      transform: rotateY(180deg);
+      transition: 2s; }
+  .related-choices .tshirt-text2 {
+    transition: 2s; }
+    .related-choices .tshirt-text2 :hover {
+      transform: rotateY(180deg);
+      transition: 2s; }
+  .related-choices .tshirt-text3 {
+    transition: 2s; }
+    .related-choices .tshirt-text3 :hover {
+      transform: rotateY(180deg);
+      transition: 2s; }
+  .related-choices .tshirt-text4 {
+    transition: 2s; }
+    .related-choices .tshirt-text4 :hover {
+      transform: rotateY(180deg);
+      transition: 2s; }
+  .related-choices .price-button {
+    display: inline-block;
+    text-align: center;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    border: 1px solid #0fbcf9;
+    border-radius: 40px;
+    padding: 5px 25px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none; }
+    .related-choices .price-button:hover {
+      background: aqua; }
+      .related-choices .price-button:hover .before {
+        transform: translateY(-105%); }
+      .related-choices .price-button:hover .after {
+        transform: translateY(105%); }
+      .related-choices .price-button:hover .text {
+        transform: scale(1); }
+    .related-choices .price-button .after,
+    .related-choices .price-button .before {
+      position: absolute;
+      width: 100%;
+      height: 50%;
+      left: 0;
+      overflow: hidden;
+      color: #fff;
+      transition: \transform .3s;
+      font-weight: 700;
+      color: #3c40c6;
+      background-color: white; }
+    .related-choices .price-button .text {
+      display: inline-block;
+      transform: scale(0.1);
+      color: #fff;
+      transition: \transform .3s, opacity .3s; }
+    .related-choices .price-button .after {
+      bottom: 0px;
+      line-height: 0px; }
+    .related-choices .price-button .before {
+      padding-top: 14px;
+      top: 1px; }
+
+.tshirt-words4-active {
+  display: block !important;
+  transform: rotateY(-180deg); }
+
+/*# sourceMappingURL=style.css.map */
